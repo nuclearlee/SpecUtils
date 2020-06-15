@@ -4754,7 +4754,7 @@ void SpecFile::cleanup_after_load( const unsigned int flags )
   //  SpecFile::rebin_by_polunomial_eqn
   try
   {
-    set<string> gamma_detector_names; //can be gamma+nutron
+    set<string> gamma_detector_names; //can be gamma+neutron
     const set<string> det_names = find_detector_names();
     
     int nGpsCoords = 0;
